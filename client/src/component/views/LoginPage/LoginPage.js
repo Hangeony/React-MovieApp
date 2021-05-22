@@ -83,8 +83,13 @@ function LoginPage(props) {
         } = props;
         return (
           <div className="app">
-            <Title level={2}>Log In</Title>
-            <form onSubmit={handleSubmit} style={{ width: "350px" }}>
+            <Title level={2} style={{ textAlign: "center" }}>
+              Log In
+            </Title>
+            <form
+              onSubmit={handleSubmit}
+              style={{ width: "350px", margin: "0 auto" }}
+            >
               <Form.Item required>
                 <Input
                   id="email"

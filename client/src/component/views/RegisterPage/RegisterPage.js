@@ -90,9 +90,9 @@ function RegisterPage(props) {
         } = props;
         return (
           <div className="app">
-            <h2>Sign up</h2>
+            <h2 style={{ textAlign: "center" }}>Sign up</h2>
             <Form
-              style={{ minWidth: "375px" }}
+              style={{ width: "350px", margin: "0 auto" }}
               {...formItemLayout}
               onSubmit={handleSubmit}
             >

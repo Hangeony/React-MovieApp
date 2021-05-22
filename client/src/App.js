@@ -13,7 +13,7 @@ import FavoritePage from "./component/views/FavoritePage/FavoritePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Suspense fallback={<div>Loading...</div>}>
         <Navbar />
         <div style={{ paddingTop: "69px", minHeight: "calc(100vh - 80px)" }}>
@@ -39,7 +39,7 @@ function App() {
         </div>
         {/* <Footer /> */}
       </Suspense>
-    </BrowserRouter>
+    </>
   );
 }
 
